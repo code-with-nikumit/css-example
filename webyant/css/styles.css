@@ -1,0 +1,780 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', 'poppins' sans-serif;
+    font-size: 18px;
+    color: #000;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.5px;
+    background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+table,
+ul,
+ol {
+    margin-bottom: 24px;
+    font-size: 24px;
+    color: #000;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.5;
+}
+
+.img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.bg {
+    background-color: black;
+    margin: 0px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title h2 a {
+    color: white;
+    padding-left: 40px;
+    font-size: 60px;
+    font-family: 'Roboto';
+    text-decoration: none;
+}
+
+.lets a {
+    color: white;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 22px;
+    font-size: 20px;
+    text-decoration: none;
+    text-decoration: underline;
+    display: inline-block;
+}
+
+.lets a:hover {
+    color: blue;
+}
+
+.lets {
+    margin-right: 30px;
+}
+
+.webyant h2 {
+    color: blue;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding-top: 50px;
+    font-family: 'Poppins';
+    line-height: 22px;
+    padding-left: 150px;
+    text-transform: uppercase;
+}
+
+.webyant h1 {
+    color: white;
+    width: 752px;
+    font-family: 'Poppins';
+    font-size: 72px;
+    font-weight: 700px;
+    line-height: 86.4px;
+    padding-left: 190px;
+    padding-bottom: 200px;
+}
+
+.gol {
+    display: flex;
+    justify-content: spece-between;
+    margin: 100px 150px 0px 150px;
+}
+
+.cmd h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 67.2px;
+    font-family: 'Poppins';
+    padding-right: 30px;
+}
+
+.build {
+    width: 1250px;
+    padding-top: 40px;
+}
+
+.build p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    font-family: 'Poppins';
+}
+
+.build h4 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 33px;
+    font-family: 'Poppins';
+}
+
+.build a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 300px;
+    letter-spacing: 2px;
+    line-height: 19px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.our {
+    margin: 100px 150px 100px 150px;
+}
+
+.work span {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: rgb(67, 83, 255);
+    padding-top: 30px;
+    letter-spacing: 2px;
+}
+
+.work h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 67px;
+    color: black;
+    margin: 0px;
+    padding-top: 10px;
+    font-family: 'Poppins';
+}
+
+.work p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    font-family: 'Poppins';
+}
+
+.img {
+    display: flex;
+    padding-top: 10px;
+}
+
+.img p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    font-family: 'Poppins';
+    text-align: right;
+    margin: 0px;
+}
+
+.img h3 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 44px;
+    font-family: 'Poppins';
+    text-align: right;
+    margin: 0px;
+}
+
+.pra {
+    padding-top: 80px;
+    padding-left: 80px;
+}
+
+.website {
+    display: flex;
+    padding-top: 10px;
+}
+
+.arc {
+    padding-top: 60px;
+    padding-left: 80px;
+}
+
+.website p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    font-family: 'Poppins';
+    text-align: right;
+    margin: 0px;
+}
+
+.website h3 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 44px;
+    font-family: 'Poppins';
+    text-align: right;
+    margin: 0px;
+}
+
+.view a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 300px;
+    letter-spacing: 2px;
+    line-height: 19px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.client {
+    background-color: black;
+}
+
+.heading {
+    padding: 120px 180px;
+}
+
+.heading span {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    line-height: 22px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.heading h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 67px;
+    color: white;
+    font-family: 'Poppins';
+    margin: 0px;
+    padding-top: 10px;
+}
+
+.heading p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    max-width: 600px;
+    font-family: 'Roboto';
+    margin: 0px;
+    padding-top: 10px;
+    color: white;
+}
+
+.images {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.stubhub {
+    padding: 30px;
+}
+
+.client_11 {
+    padding: 30px;
+}
+
+.client_13 {
+    padding: 30px;
+}
+
+.client_15 {
+    padding: 30px;
+}
+
+.client_10 {
+    padding: 30px;
+}
+
+.services {
+    margin: 100px 150px 60px 150px;
+    ;
+}
+
+.services {
+    display: flex;
+}
+
+.work span {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    line-height: 22px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    width: 468px;
+}
+
+.work h2 {
+    font-size: 48px;
+    font-weight: 700;
+    width: 468px;
+    font-family: 'Poppins';
+}
+
+.work p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    width: 468px;
+    font-family: 'Roboto';
+}
+
+.work {
+    padding-right: 130px;
+}
+
+.graphics h3 {
+    padding-top: 40px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    width: 568px;
+    font-family: 'Poppins';
+}
+
+.graphics p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    width: 468px;
+    font-family: 'Roboto';
+    width: 568px;
+    padding-bottom: 20px;
+}
+
+.graphics a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 300px;
+    letter-spacing: 2px;
+    line-height: 19px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.workwith {
+    background-color: #007aff;
+}
+
+.workwith {
+    padding: 100px 150px 100px 150px;
+    margin-top: 100px;
+}
+
+.us span {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    line-height: 22px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    width: 468px;
+    color: white;
+    margin: 0px;
+}
+
+.us h2 {
+    font-size: 48px;
+    font-weight: 700;
+    width: 650px;
+    color: white;
+    font-family: 'Poppins';
+    margin: 0px;
+    padding-top: 10px;
+}
+
+.us p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    width: 600px;
+    color: white;
+    font-family: 'Roboto';
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.us a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 300px;
+    letter-spacing: 2px;
+    line-height: 19px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.insights {
+    margin: 100px 150px 40px 150px;
+}
+
+.uns span {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    line-height: 22px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: blue;
+}
+
+.uns h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 67px;
+    font-family: 'Poppins';
+    margin: 0px;
+    padding-top: 10px;
+}
+
+.uns p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    max-width: 600px;
+    font-family: 'Roboto';
+    margin: 0px;
+    padding-top: 10px;
+}
+
+.imag {
+    margin: 0px 150px 60px 150px;
+    display: flex;
+}
+
+.pic {
+    padding-left: 40px;
+}
+
+.saas h4 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 33px;
+    width: 468px;
+    font-family: 'Poppins';
+    margin: 0px;
+}
+
+.saas p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    width: 455px;
+    margin: 0px;
+    font-family: 'Roboto';
+    padding-top: 10px;
+}
+
+.saas a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 300;
+    color: blue;
+    line-height: 29px;
+    font-family: 'Roboto';
+}
+
+.jul {
+    padding-left: 190px;
+}
+
+.th p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    font-family: 'Roboto';
+    padding-top: 100px;
+    margin: 0px;
+}
+
+.best h4 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 33px;
+    width: 568px;
+    font-family: 'Poppins';
+    margin: 0px;
+    padding-top: 40px;
+}
+
+.best p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    width: 568px;
+    margin: 0px;
+    font-family: 'Roboto';
+    padding-top: 10px;
+}
+
+.best a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 300;
+    color: blue;
+    line-height: 29px;
+    font-family: 'Roboto';
+}
+
+.may {
+    padding-left: 100px;
+}
+
+.th p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    font-family: 'Roboto';
+    padding-top: 40px;
+    padding-right: 40px;
+    margin: 0px;
+}
+
+.visit p a {
+    padding-left: 160px;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    line-height: 19px;
+    font-family: 'Roboto';
+    text-decoration: none;
+}
+
+.using {
+    background-color: black;
+    padding: 90px 100px 20px 180px;
+    margin-top: 90px;
+}
+
+.says {
+    display: flex;
+}
+
+.hello h2 {
+    color: rgb(67, 83, 255);
+    font-size: 80px;
+    font-weight: 700;
+    font-family: 'Poppins';
+    line-height: 80px;
+    width: 568px;
+}
+
+.hello span {
+    color: rgb(67, 83, 255);
+    font-size: 150px;
+    font-weight: 700;
+    font-family: 'Poppins';
+    line-height: 150px;
+    width: 568px;
+}
+
+.hello h4 {
+    font-size: 24px;
+    font-weight: 500;
+    width: 568px;
+    font-family: 'Poppins';
+    margin: 0px;
+    padding-top: 40px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.footer strong {
+    font-size: 15px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 40px;
+    font-family: 'roboto';
+    padding-left: 20px;
+    padding-right: 40px;
+    display: flex;
+}
+
+.footer a {
+    font-size: 15px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    font-family: 'roboto';
+    padding-top: 13px;
+}
+
+.footer p {
+    font-size: 15px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    font-family: 'roboto';
+}
+
+.footer img {
+    padding-top: 12px;
+}
+
+.footer li {
+    list-style: none;
+    display: flex;
+}
+
+.inquiry {
+    background-color: #0e0e0e;
+    padding: 20px 48px 60px 48px;
+    margin-top: 40px;
+}
+
+.inquiry h5 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+    font-family: 'poppins';
+    color: white;
+    padding-bottom: 10px;
+}
+
+.inquiry p {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 24px;
+    font-family: 'roboto';
+    color: rgba(255, 255, 255, 0.5);
+    width: 472px;
+    padding-bottom: 10px;
+}
+
+.form input {
+    padding: 10px 16px;
+    margin-bottom: 30px;
+    width: 472px;
+    font-size: 18px;
+    display: inline-block;
+    background-color: rgb(14, 14, 14);
+    font-weight: 300;
+    font-family: 'roboto';
+    border: 1px solid rgb(68, 68, 68);
+}
+
+.form textarea {
+    padding: 10px 16px 60px 16px;
+    width: 472px;
+    font-size: 18px;
+    display: inline-block;
+    background-color: rgb(14, 14, 14);
+    font-weight: 300;
+    font-family: 'roboto';
+    border: 1px solid rgb(68, 68, 68);
+}
+
+.send button {
+    background-color: rgb(67, 83, 255);
+    color: white;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 16px 32px;
+    font-family: 'roboto';
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid blue;
+}
+
+.send button:hover {
+    background-color: black;
+    color: blue;
+    border: 1px solid blue;
+}
+
+.design h6 {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'poppins';
+    color: white;
+    padding-top: 80px;
+    margin: 20px;
+    margin-left: 0px;
+}
+
+.design ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.design li {
+    font-size: 15px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    font-family: 'roboto';
+    padding-top: 15px;
+    padding-right: 150px;
+    line-height: 24px;
+}
+
+.links {
+    display: flex;
+}
+
+.design a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.design a:hover {
+    color: blue;
+}
+
+.bottom {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 90px;
+}
+
+.site p {
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'roboto';
+    color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 3px;
+    margin: 0px;
+}
+
+.site li a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'roboto';
+    padding-right: 20px;
+}
+
+.site ul {
+    list-style: none;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+
+.site a:hover {
+    color: blue;
+}
+
+.insta img {
+    padding-right: 10px;
+    opacity: 0.5;
+}
